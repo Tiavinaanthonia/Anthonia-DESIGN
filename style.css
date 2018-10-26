@@ -1,0 +1,154 @@
+ body{
+   margin:0;
+   padding:0;
+ }
+ header{
+   min-height:100vh;
+   width:100%;
+   background-image:url("img/zen-2907290_1920.jpg");
+   background-size: cover;
+   background-position: center;
+ }
+ header h1{
+   color: white;
+   padding-top: 200px;
+   padding-bottom:0;
+   position:relative;
+   text-align:center;
+   font-size:50px;
+  font-family: 'Rouge Script';
+  margin-left: 0;
+ }
+header h2{
+ color:white;
+ padding-top: 0px;
+ margin:15px;
+ padding-bottom:15px;
+ position:relative;
+ text-align:center;
+ font-size:30px;
+ font-family: 'Euphoria';
+ margin-left: 50px;
+ margin-right: 10px;
+}
+P{
+  font-size:20px;
+}
+ul{
+  font-size:20px;
+}
+#logo {
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  padding: 25px;
+  top:10px;}
+#monlogo{
+  width: 200px;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 500px;
+}
+#reseauxsociaux {
+  width: 20%;
+  height: 30px;
+  top:0;
+  right: 10px;
+  position: absolute;
+}
+#reseauxsociaux li{
+  liste-style:none;
+
+
+}
+#reseauxsociaux li img{
+    width: 30px;
+}
+#menumobile {
+  position:fixed;
+  width: 100%;
+  min-height:60px;
+  top:0;
+  background-color:#a4d555;
+  color:white;
+}
+#menumobile li{
+  liste-style:none;
+  display:inline;
+  float:left;
+  padding-right:50px;
+  font-size:20px;
+  font-family:'Euphoria';
+}
+a:visited {color: gray;}
+#menugauche{
+  font-size:20px;
+  color:green;
+  font-family:'Euphoria';
+}
+#menugauche li{
+float:left;
+padding-right:50px;
+font-size:20px;
+
+}
+section{
+  min-heifht:100vh;
+}
+#paragraphe{
+  text-align: right;
+  color:grey;
+}
+#section2{
+  background-color: white;
+}
+.travail{
+width: 60%;
+}
+.activités {
+  width: 20%;
+  border-radius:70px;
+  display: inline-block;
+
+}
+#section h3{
+  color:green;
+}
+h3{
+  text-align:center;
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color: #a4d555;
+  border-style: double;
+  font-family: 'Ubuntu';
+  font-size: 40px;
+  color:white;
+}
+h4{
+  text-align:center;
+  padding-top:25px;
+  padding-bottom:25px;
+  background-color: #cfd1cc;
+  border-style: double;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  color:white;
+}
+body{
+  background-color: white;
+}
+.home{
+  width:45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1000px;
+
+}
+footer{
+  position:absolute;
+  margin-bottom: 0;
+  width: 100%;
+  min-height: 50%;
+  background-color: #a4d555;
+}
