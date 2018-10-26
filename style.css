@@ -71,7 +71,6 @@ ul{
   min-height:60px;
   top:0;
   background-color:#a4d555;
-  color:white;
 }
 #menumobile li{
   liste-style:none;
@@ -112,8 +111,25 @@ width: 60%;
   display: inline-block;
 
 }
+
 #section h3{
   color:green;
+}
+#section3 h5{
+  font-size: 20px;
+  color:orange;
+  background-color: #cfd1cc;
+}
+#section3 h4{
+  color:orange;
+  text-align:center;
+  padding-top:25px;
+  padding-bottom:25px;
+  background-color: #cfd1cc;
+  border-style: double;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+
 }
 h3{
   text-align:center;
