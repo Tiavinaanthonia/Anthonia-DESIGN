@@ -81,16 +81,16 @@ ul{
   font-family:'Euphoria';
 }
 a:visited {color: gray;}
-#menugauche{
+#menuordi{
   font-size:20px;
   color:green;
   font-family:'Euphoria';
+
 }
-#menugauche li{
-float:left;
+#menuordi li{
 padding-right:50px;
 font-size:20px;
-
+display: block;
 }
 section{
   min-heifht:100vh;
@@ -161,10 +161,31 @@ body{
   border-radius: 1000px;
 
 }
+@media all and (min-width: 600px)
+
+{
+
+    #menuordi{
+        display: none;
+             }
+}
+@media all and (max-width: 600px)
+
+{
+
+    #menumobile{
+        display: none;
+             }
+}
+
 footer{
   position:absolute;
   margin-bottom: 0;
   width: 100%;
   min-height: 50%;
   background-color: #a4d555;
+}
+.logofooter li{
+  width:40%;
+  display: none;
 }
